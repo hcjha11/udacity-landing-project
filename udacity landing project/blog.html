@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Pawfect Match</title>
+    <!-- loading my stylesheets and custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="page__header">
+    <nav class="navbar">
+        <ul id="nav_links">
+            <div class="bubble"></div>
+        </ul>
+        <!-- <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div> -->
+    </nav>
+</header>
+<main>
+    <section id="section_one" data-name="Content" class='your-active-class'>
+        <div class="landing__container">
+                <div class="col-lg-12">
+                    <div id="content">
+                        <h1>The Harsh page </h1>
+                        <h3>A Place for New Owners to Find Their Perfect Match</h3>
+                        <button class="btn btn-default btn-lg">Click To Begin Browsing</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <br>
+    <section id="section_two" data-name="Register">
+        <div class="landing__container">
+            <h3><u>Register</u></h3>
+            <form>
+                <label for="first">First Name:</label> 
+                <input name="first" id="first" type="text" placeholder="John" required>
+                <label for="first">Last Name:</label>
+                <input name="last" id="last" type="text" placeholder="Smith" required>
+
+                <div>
+                    <label for="male">Male</label>
+                    <input id="male" name="gender" type="radio" value="male">
+                    <label for="female">Female</label>
+                    <input id="female" name="gender" type="radio" value="female">
+                    <label for="Other">Other</label>
+                    <input id="Other" name="gender" type="radio" value="other">
+                </div>
+                <div>
+                    <label>
+                        Email:
+                        <input name="email" type="email" placeholder="Your Email" required>
+                    </label>
+                    <label>
+                        Password:
+                        <input name="Password" type="password" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        Birthday:
+                        <select>
+                            <option>Month</option>
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>March</option>
+                        </select>
+                        <select>
+                            <option>Day</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <select>
+                            <option>Year</option>
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="agreed">I agree to the terms and conditions:</label>
+                    <input id="agreed" name="agreed" type="checkbox">
+
+                </div>
+                <input type="Submit">
+            </form>
+        </div>
+    </section>
+    <section id="section_three" data-name="About">
+        <div class="landing__container">
+                <h3><u>About Pawfect Match</u></h3>
+                        <p>I really enjoy providing robust software solutions.  I’ve led a software engineering team of 10 programmers at Xyzzy Solutions for three years.</p>
+                        <br>
+
+                        <p>Our proudest moment was receiving the 2018 Bossie award. Before that I worked for two years as a software engineer at SurgeWallop.</p>
+
+                        <br>
+
+                        <p>I slashed security breaches 70% by winning full employee buy-in for our Principle of Least Privilege drive.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="section_four" data-name="Mission">
+        <div class="container>">
+            <div class="landing__container">
+                <h3><u>Our Misson</u></h3>
+                    <p>“Schools are shut. All out-of-home activities and social interactions have stopped, too.</p>
+
+                    <p>In such times, keeping kids engaged with creative activities that they find interesting is tough,” said Aarti Laxmanan, a corporate communications professional at a Noida-based packaging company.</p>
+
+                    <p>axmanan to understand how they are managing work-from-home with their kids always around them, sometimes demanding attention subtly and at other times pounding at their laptops.</p>
+        </div>
+    </section>
+    <section  id="section_five" data-name="How it Works">
+        <div class="landing__container">
+                <h3><u>How It Works</u></h3>
+                        <p>If your kid sees you at home, they want more of your undivided attention. This sometimes comes in between work,.</p>
+                        <br>
+
+                        <p>Schools may be shut, but that shouldn’t derail the routine that kids are used to, some parents said. </p>
+
+                        <br>
+                        <p>Parents are tapping the internet to add interesting activities to their kids’ lockdown.</p>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="footer">
+        <button type="button" onclick="document.getElementById('date').innerHTML = Date()">This shows the current date and time</button> <p id="date"></p> 
+        <a class="top-link hide" href="" id="js-top">
+            <svg xmlns="#navbar" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
+            <span class="screen-reader-text">To The Top</span>
+          </a>
+</div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
